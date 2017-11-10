@@ -2,7 +2,7 @@
 '''
 Created on 2016-12-4
 @author=wuyuhuan
-introduction:spider of http://kjc.cug.edu.cn/zrkx/notice.asp and http://kjc.cug.edu.cn/shkx/notice.asp
+introduction:spider for http://kjc.cug.edu.cn/zrkx/notice.asp and http://kjc.cug.edu.cn/shkx/notice.asp
 '''
 
 import codecs
@@ -12,7 +12,6 @@ import scrapy
 from scrapy.spiders import CrawlSpider
 from scrapy.selector import Selector
 from ..items import TechItem
-import requests
 import datetime,calendar
 
 import sys
