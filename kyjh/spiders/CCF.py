@@ -2,7 +2,7 @@
 '''
 Created on 2017-11-04
 @author: Hugh
-introduction: 中国计算机学会爬虫
+introduction: 中国计算机学会新闻动态爬虫
 '''
 
 import re
